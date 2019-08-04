@@ -226,7 +226,7 @@ function Test(props) {
 通过setState可以修改state的值
 state的值在修改了之后并不会立即被修改，而是也有一个类似的队列，setState通过一个队列机制实现state的更新。当执行setState时，会把需要更新的state合并后放入状态队列，而不会立刻更新this.state，利用这个队列机制可以高效的批量的更新state。
 
-#### react的生命周期
+#### react的生sd命周期
 即组件在某个时间点会自动调用的函数
 * Initialization：初始化阶段
 * Mounting：真实DOM已插入
